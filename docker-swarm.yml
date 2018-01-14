@@ -1,0 +1,22 @@
+version: '3.1'
+ 
+services:
+ 
+  main:
+    image: b0rr3g0/ci:latest
+    ports:
+      - 8080:8080
+      - 50000:50000
+    secrets:
+      - jenkins-user
+      - jenkins-pass
+  portainer: 
+    image: portainer/portainer:latest
+    ports:
+      - 9000:9000
+
+secrets:
+  jenkins-user:
+    external: true
+  jenkins-pass:
+    external: true
