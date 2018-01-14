@@ -1,4 +1,4 @@
-branch-api:2.0.5
+branch-api:2.0.18
 build-timeout:latest
 credentials:latest
 credentials-binding:latest
@@ -6,7 +6,7 @@ display-url-api:latest
 docker-commons:latest
 docker-workflow:latest
 email-ext:latest
-git-changelog:1.45
+git-changelog:1.57
 git:latest
 git-client:latest
 git-server:latest
@@ -29,8 +29,8 @@ pipeline-build-step:latest
 pipeline-graph-analysis:latest
 pipeline-input-step:latest
 pipeline-milestone-step:latest
-pipeline-model-api:1.0.2
-pipeline-model-declarative-agent:1.0.2
+pipeline-model-api:1.2.6
+pipeline-model-declarative-agent:1.1.1
 pipeline-model-definition:1.0.2
 pipeline-githubnotify-step:latest
 pipeline-github-lib:latest
