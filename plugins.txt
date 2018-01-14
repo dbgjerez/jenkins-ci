@@ -31,7 +31,7 @@ pipeline-input-step:latest
 pipeline-milestone-step:latest
 pipeline-model-api:1.2.6
 pipeline-model-declarative-agent:1.1.1
-pipeline-model-definition:1.0.2
+pipeline-model-definition:1.2.6
 pipeline-githubnotify-step:latest
 pipeline-github-lib:latest
 pipeline-rest-api:latest
