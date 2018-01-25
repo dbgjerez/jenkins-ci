@@ -12,3 +12,8 @@ docker swarm init
 echo "admin" | docker secret create jenkins-user -
 echo "admin" | docker secret create jenkins-pass -
 ```
+* Starts services
+   Now, it are going to start the different services defined in our swarm's file:
+```bash
+docker stack deploy -c docker-swarm.yml ci
+```
