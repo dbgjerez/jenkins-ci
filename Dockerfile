@@ -1,9 +1,8 @@
 FROM jenkins/jenkins
 
-ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
+ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false -Djenkins.CLI.disabled=true"
  
 COPY admin.groovy /usr/share/jenkins/ref/init.groovy.d/security.groovy
-COPY disable_cli.groovy /usr/share/jenkins/ref/init.groovy.d/disable_cli.groovy
 COPY csrf.groovy /usr/share/jenkins/ref/init.groovy.d/csrf.groovy
  
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
