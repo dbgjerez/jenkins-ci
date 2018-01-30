@@ -14,6 +14,8 @@ services:
     image: portainer/portainer:latest
     ports:
       - 9000:9000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
 
 secrets:
   jenkins-user:
